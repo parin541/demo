@@ -4,7 +4,7 @@ import com.example.demo.model.Message;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/  ")
+@RequestMapping("/hello")
 public class WelcomeRestController {
 
     @GetMapping("/greet")
